@@ -1,0 +1,3 @@
+[submodule "wwwroot"]
+	path = wwwroot
+	url = https://github.com/lucmi/table-filter-sorter.git

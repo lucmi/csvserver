@@ -1,0 +1,8 @@
+/Users/mikelucas/serveCSV/bin/Debug/netcoreapp1.1/serveCSV.deps.json
+/Users/mikelucas/serveCSV/bin/Debug/netcoreapp1.1/serveCSV.runtimeconfig.json
+/Users/mikelucas/serveCSV/bin/Debug/netcoreapp1.1/serveCSV.runtimeconfig.dev.json
+/Users/mikelucas/serveCSV/bin/Debug/netcoreapp1.1/serveCSV.dll
+/Users/mikelucas/serveCSV/bin/Debug/netcoreapp1.1/serveCSV.pdb
+/Users/mikelucas/serveCSV/obj/Debug/netcoreapp1.1/serveCSV.AssemblyInfo.cs
+/Users/mikelucas/serveCSV/obj/Debug/netcoreapp1.1/serveCSV.dll
+/Users/mikelucas/serveCSV/obj/Debug/netcoreapp1.1/serveCSV.pdb
