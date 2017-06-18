@@ -1,5 +1,6 @@
 ﻿using System;
 using System.IO;
+using System.Text.RegularExpressions;
 
 /// <summary>
 ///  Reads a csv file and produce an html table
@@ -59,7 +60,8 @@ public class csvProcessor
         using (StreamReader tr = new StreamReader(new FileStream(_filename, FileMode.Open, FileAccess.Read)))
         {
             //Set up headers
-            string[] headers = tr.ReadLine().Split(',');
+            string regex = ",(?=(?:[^\"]*\"[^\"]*\")*[^\"]*$)";
+            string[] headers = Regex.Split(tr.ReadLine(), regex);
             partTable += "<thead>";
             foreach (string header in headers)
             {
@@ -69,7 +71,8 @@ public class csvProcessor
             //set up rows
             while (!tr.EndOfStream)
             {
-                string[] row = tr.ReadLine().Split(',');
+                
+                string[] row = Regex.Split(tr.ReadLine(), regex);
                 partTable += "<tr>";
                 foreach (string item in row)
                 {
